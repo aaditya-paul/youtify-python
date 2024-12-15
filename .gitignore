@@ -11,6 +11,8 @@ __pycache__/
 
 # Ignore environment variable files
 .env
+.cache
+./spotify_playlists
 
 # Ignore other common files
 *.log

@@ -3,9 +3,9 @@ from youtube import search_youtube
 from youtify import search_youtube as sy
 import csv
 try:
-    path = RUN_SPOTIFY()
+    path = "spotify_playlists\\"+ RUN_SPOTIFY()
     # path = "shdak.csv"
-    print("/" + path)
+    print("spotify_playlists\\" + path)
 
     with open(path, 'r',encoding="utf-8") as file:
         reader = csv.reader(file)

@@ -46,7 +46,7 @@ def RUN_SPOTIFY():
 
     # Save to CSV
     df = pd.DataFrame(tracks)
-    df.to_csv(f'spotify_playlist_tracks_{playlist_id}.csv', index=False)
+    df.to_csv(f'spotify_playlists\\spotify_playlist_tracks_{playlist_id}.csv', index=False)
     # print(f"Playlist tracks have been saved to 'spotify_playlist_tracks_{playlist_id}.csv'.")
     return f"spotify_playlist_tracks_{playlist_id}.csv"
 
